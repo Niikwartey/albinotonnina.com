@@ -68,7 +68,7 @@ module.exports = function(grunt) {
                 tasks: ['replace']
             },
             sass: {
-                files: ['src/*/*.scss'],
+                files: ['src/svg/*/*.scss','src/*/*.scss'],
                 tasks: ['concat:css','sass:dev','sass:styles']
             },            
             livereload: {
